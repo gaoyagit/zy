@@ -22,6 +22,7 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 40px;
     /*margin-bottom: 200px;*/
     /*margin-top: 200px;*/
 }
@@ -61,15 +62,25 @@
 .Chinese2English:hover .Chinese{
     display: none;
 }
-
-.content{
-    margin-top: 40px;
+.contentBox{
+    width: 100%;
+    position: relative;
     bottom: 20px;
+}
+.content{
     width: 400px;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
 }
+/*.content{*/
+    /*margin-top: 40px;*/
+    /*bottom: 20px;*/
+    /*width: 400px;*/
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*overflow: hidden;*/
+/*}*/
 .content img{
     width: 50px;
     height: 50px;

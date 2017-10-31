@@ -2,9 +2,120 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>注册页面</title>
+    <link rel="stylesheet" href="CSS/register.css">
 </head>
 <body>
+<div class="header">
+    <div class="headerlog">
+        <img src="image/logo.png">
+        <div class="logodescription">
+            <span>雅利众创科技有限公司</span>
+        </div>
+    </div>
+</div>
+<hr/>
+<div class="regcontentBox">
+    <div class="regcontent">
+        <ul>
+            <li>
+                <div class="registerTop">
+                    <img src="image/admin.png">
+                    <span>注册新会员</span>
+                </div>
+            </li>
+            <li>
+                <div class="tag-prefix name">用户名</div>
+                <input>
+                <div class="description">
+                    <span>*</span>账户名是您以后登录所用的账号，可由a-z或数字组成
+                </div>
+            </li>
+            <li>
+                <form class="sexBox">
+                    <div class="tag-prefix sex">性别</div>
+                    <div class="sexRadio">
+                        <label>男<input name="femaleormale" type="radio" value="男"></label>
+                        <label>女<input name="femaleormale" type="radio" value="女"></label>
+                    </div>
 
+                </form>
+            </li>
+            <li>
+                <div class="tag-prefix email">email</div>
+                <input type="text">
+                <div class="description">
+                    <span>*</span>您将使用此邮箱登录，请输入正确的常用邮箱
+                </div>
+            </li>
+            <li>
+                <div class="tag-prefix password">密码</div>
+                <input type="password">
+                <div class="description">
+                    <span>*</span>6-10位字符，密码由字母a-z及数字组成
+                </div>
+            </li>
+            <li>
+                <div class="tag-prefix repassword">确认密码</div>
+                <input type="password">
+                <div class="description">
+                    <span>*</span>请再次输入密码
+                </div>
+            </li>
+            <li>
+                <div class="tag-prefix hobby">爱好</div>
+                <input type="text">
+            </li>
+            <li>
+                <div class="tag-prefix address">地址</div>
+                <input type="text">
+            </li>
+            <li>
+                <div class="tag-prefix MSN">msn</div>
+                <input type="text">
+            </li>
+            <li>
+                <div class="tag-prefix QQ">QQ</div>
+                <input type="text">
+            </li>
+            <li>
+                <div class="tag-prefix telephone">手机</div>
+                <input type="text">
+            </li>
+            <li class="prompt-questions-Box">
+                <div class="tag-prefix prompt-questions">密码提示问题</div>
+                <select>
+                    <option>请选择密码提示问题</option>
+                    <option>你喜欢我吗</option>
+                    <option>你确定喜欢我吗</option>
+                    <option>你真的确定喜欢我吗</option>
+                    <option>你真的真的确定喜欢我吗</option>
+                </select>
+            </li>
+            <li>
+                <div class="tag-prefix prompt-answer">密码提示答案</div>
+                <input type="text">
+            </li>
+            <li>
+                <div class="tag-prefix"></div>
+                <input type="radio" class="radio">
+                <div class="description protocol">
+                    我已仔细阅读并接受<span>《服务协议》</span>
+                </div>
+            </li>
+            <li>
+                <div class="tag-prefix"></div>
+                <button type="submit" class="submit">立即注册</button>
+            </li>
+        </ul>
+    </div>
+</div>
+<div class="contentBox">
+    <div class="content">
+        <a href="index.html" class="SI-box SI-box1">
+            <span><< 返回主页</span>
+        </a>
+    </div>
+</div>
 </body>
 </html>
