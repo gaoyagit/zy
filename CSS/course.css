@@ -1,0 +1,97 @@
+.header{
+    width: 75%;
+    /*background-color: lightgray;*/
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 75px;
+    margin-top: 50px;
+
+}
+.header h2{
+    height: 75px;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 75px;
+    margin-top: 0px;
+    letter-spacing: 10px;
+}
+.courseBox{
+    display: block;
+    width: 75%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    /*margin-bottom: 200px;*/
+    /*margin-top: 200px;*/
+}
+.courseBox table{
+    width: 100%;
+}
+.courseBox th{
+    background-color: darkgray;
+}
+.courseBox td{
+    position: relative;
+    overflow: hidden;
+    padding: 0px;
+    text-align: center;
+    margin: 0px;
+}
+.Chinese2English{
+    display: inline-block;
+    width: 192px;
+    height: 60px;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.Chinese2English .Chinese{
+    display: inline-block;
+    cursor: pointer;
+}
+.Chinese2English .English {
+    display: none;
+    cursor: pointer;
+    color: red;
+}
+.Chinese2English:hover .English{
+    display: inline-block;
+}
+.Chinese2English:hover .Chinese{
+    display: none;
+}
+
+.content{
+    margin-top: 40px;
+    bottom: 20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.content img{
+    width: 50px;
+    height: 50px;
+}
+.content a{
+    display: block;
+    position: relative;
+    float: left;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    width: 90px;
+}
+.SI-box1{
+    margin-left: 20px;
+}
+.SI-box img:hover{
+    opacity: 0.8;
+}
+
+.SI-box span{
+    display: block;
+    padding-top: 20px;
+    font-size: 20px;
+}

@@ -1,0 +1,53 @@
+.header{
+    width: 900px;
+    /*background-color: lightgray;*/
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 200px;
+    margin-top: 50px;
+
+}
+.header h2{
+    height: 75px;
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 75px;
+    margin-top: 0px;
+    letter-spacing: 10px;
+}
+.content{
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.content img{
+    width: 200px;
+    height: 200px;
+}
+.self-introduction{
+    overflow: hidden;
+    margin-left: 50px;
+}
+.self-introduction a{
+    display: block;
+    position: relative;
+    float: left;
+    margin-right: 100px;
+    text-decoration: none;
+    color: black;
+    width: 200px;
+    text-align: center;
+}
+.SI-box img:hover{
+    opacity: 0.8;
+}
+.self-introduction .SI-box4{
+    margin-right: 0px;
+}
+
+.SI-box span{
+    display: block;
+    padding-top: 20px;
+    font-size: 20px;
+}
