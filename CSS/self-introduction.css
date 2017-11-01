@@ -1,0 +1,135 @@
+ul,li{
+    list-style: none;
+}
+body{
+    background-color: #bfbfbf;
+    margin: 0px;
+    padding: 0px;
+}
+.SI-Content-Box{
+    width: 100%;
+    height: 100%;
+}
+.SI-Content{
+    width: 65%;
+    /*height: auto;*/
+    background-color: #f1f1f1;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3.4%;
+}
+.SI-Content-Top{
+    overflow: hidden;
+}
+.SI-Content-Top .Top-Left{
+    float: left;
+    padding-left: 10%;
+}
+.SI-Content-Top .Top-Left p{
+    background-color: black;
+    height: 80px;
+    width: 80px;
+    line-height: 80px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+.SI-Content-Top .Top-Right{
+    float: right;
+    overflow: hidden;
+    position: relative;
+    padding-right: 10%;
+}
+.SI-Content-Top .Top-Right li{
+    float: left;
+    overflow: hidden;
+    width: 130px;
+    margin-left: 20px;
+    text-align: center;
+    height: 80px;
+    /*line-height: 80px;*/
+    padding-top: 40px;
+
+}
+.SI-Content-Top .Top-Right li span{
+    font-size: 20px;
+    font-weight: 700;
+}
+.SI-Content-Top .Top-Right li hr{
+    border: 1px solid black;
+}
+.SI-Content .SI-Content-Bottom{
+    overflow: hidden;
+}
+.SI-Content-Bottom .Bottom-Left{
+    float: left;
+    padding-left: 10%;
+    width: 200px;
+}
+.SI-Content-Bottom .Bottom-Left-Top img{
+    height: 150px;
+    width: 200px;
+}
+.Bottom-Left-Buttom{
+    margin-left: 10px;
+}
+.Bottom-Left-Buttom p{
+    font-size: 20px ;
+    font-weight: 700;
+}
+.Bottom-Left-Buttom hr{
+    border: 1px dashed black;
+}
+.SI-Content-Bottom .Bottom-Right{
+    float: right;
+    padding-right: 10%;
+    width: 56%;
+}
+.Bottom-Right .Bottom-Right-Top h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.Bottom-Right-Top p{
+    font-size: 20px;
+    line-height: 1.5;
+    text-indent: 2em;
+    /*font-size: 40px;*/
+}
+.Bottom-Right-Bottom{
+    overflow: hidden;
+}
+.Bottom-Right-Bottom .Bottom-left{
+    float: left;
+    width: 50%;
+}
+.Bottom-Right-Bottom .Bottom-Right{
+    float: right;
+    width: 35%;
+    padding-right: 0px;
+}
+.Bottom-Right-Bottom p{
+    font-size: 20px;
+    text-indent: 2em;
+    line-height: 1.5;
+}
+.Bottom-Right-Bottom .Bottom-Right p{
+    color: #999999;
+}
+.content{
+    position: absolute;
+    bottom: 5%;
+    right: 25%;
+}
+.content a{
+    display: block;
+    right: 0px;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    width: 100px;
+}

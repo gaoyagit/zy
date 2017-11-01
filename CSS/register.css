@@ -18,6 +18,9 @@ ul,li{
     width: 50px;
     height: 50px;
 }
+.dividing-line{
+    width: 100%;
+}
 .logodescription{
     float: left;
     margin-left: 5px;
@@ -140,18 +143,18 @@ li input{
 }
 .contentBox{
     width: 100%;
-    position: absolute;
+    bottom: 10% ;
+
 }
-/*.content{*/
-    /*width: 400px;*/
-    /*margin-left: auto;*/
-    /*margin-right: auto;*/
-    /*overflow: hidden;*/
-/*}*/
+.content{
+    width: 56%;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
 .content a{
     display: block;
-    bottom: 20px;
-    right: 50px;
+    right: 0px;
     position: absolute;
     float: left;
     text-decoration: none;
@@ -159,15 +162,3 @@ li input{
     text-align: center;
     width: 100px;
 }
-/*.SI-box1{*/
-    /*margin-left: 20px;*/
-/*}*/
-/*.SI-box img:hover{*/
-    /*opacity: 0.8;*/
-/*}*/
-
-/*.SI-box span{*/
-    /*display: block;*/
-    /*padding-top: 20px;*/
-    /*font-size: 20px;*/
-/*}*/

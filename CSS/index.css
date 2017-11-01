@@ -17,9 +17,10 @@
     letter-spacing: 10px;
 }
 .contentBox{
+    margin-top: 10%;
     width: 100%;
-    position: absolute;
-    bottom: 20px;
+    position: relative;
+    /*bottom: 20px;*/
 }
 .content{
     width: 1200px;
